@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "{{cookiecutter.name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
 readme = "README.md"
-homepage = "https://github.com/{{cookiecutter.github}}/{{cookiecutter.name}}"
-repository = "https://github.com/{{cookiecutter.github}}/{{cookiecutter.name}}"
+homepage = "https://github.com/{{cookiecutter.github}}/{{cookiecutter.project_name}}"
+repository = "https://github.com/{{cookiecutter.github}}/{{cookiecutter.project_name}}"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-{{cookiecutter.name}} = "{{cookiecutter.name}}.__main__:app"
+{{cookiecutter.project_name}} = "{{cookiecutter.project_name}}.__main__:app"
