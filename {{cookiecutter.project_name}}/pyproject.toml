@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-{{cookiecutter.project_name}} = "{{cookiecutter.project_name}}.__main__:app"
+{{cookiecutter.project_name}} = "{{cookiecutter.project_slug}}.__main__:app"

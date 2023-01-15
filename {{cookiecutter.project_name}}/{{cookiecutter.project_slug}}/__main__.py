@@ -1,6 +1,6 @@
 import typer
-from {{cookiecutter.project_name}}.logger import init_logger, logger, console
-from {{cookiecutter.project_name}} import __version__
+from {{cookiecutter.project_slug}}.logger import init_logger, logger, console
+from {{cookiecutter.project_slug}} import __version__
 
 app = typer.Typer(
     add_completion=False,
